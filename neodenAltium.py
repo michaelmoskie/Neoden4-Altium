@@ -2,6 +2,7 @@
 # You will need to later select which parts are skipped or not.
 # Copyright 2018 Michael Moskie
 import sys
+from decimal import Decimal
 class component:
     ##just a structure to represent a physical component
     def __init__(self, line):
@@ -51,7 +52,7 @@ class NeoDenConverter:
         outputFile.write("Designator,Footprint,Mid X,Mid Y,Layer,Rotation,Comment\n")
         outputFile.write(",,,,,,\n")
         for comp in self.components:
-            outLine = str(comp.Designator) + "," + str(comp.Footprint) + "," + str(comp.X) + "," + str(comp.Y) + "," + "T," + str(comp.Rotation)
+            outLine = str(comp.Designator).replace("\"","") + "," + str(comp.Footprint).replace("\"","") + "," + str(round(Decimal(comp.X),2))+"mm" + "," + str(round(Decimal(comp.Y),2))+"mm" + "," + "T," + str(comp.Rotation).replace("\"","") + "," + comp.Comment.replace("\"","")
             outputFile.write(outLine + "\n")
 
     def __init__(self, fileName):
