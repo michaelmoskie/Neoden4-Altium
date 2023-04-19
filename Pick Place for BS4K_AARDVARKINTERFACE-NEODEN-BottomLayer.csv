@@ -1,0 +1,11 @@
+#Feeder,Feeder ID,Type,Nozzle,X,Y,Angle,Footprint,Value,Pick height,Pick delay,Place Height,Place Delay,Vacuum detection,Threshold,Vision Alignment,Speed,,,,,,,,,,,,,
+stack,1,0,1,409.54,89.6,90,,,0.5,20,0,50,No,-40,1,70,4,50,80,No,No,-40,-40,-40,-40,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pcb,Manual,Trace,100,100,304.58,333.94,Front,10,10,0,,,,,,,,,,,,,,,,,,,
+mark,Whole,Auto,20.00,20.00,,,,,,,,,,,,,,,,,,,,,,,,,,
+markext,0,0.8,2,1,0,,,,,,,,,,,,,,,,,,,,,,,,
+test,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mirror_create,1,1,100.00,130.00,0,0,110.0,150.00,0.0,,,,,,,,,,,,,,,,,,,,
+mirror,266.88,138.81,0,No,,,,,,,,,,,,,,,,,,,,,,,,,
+#SMD,Feeder ID,Nozzle,Name,Value,Footprint,X,Y,Rotation,Skip,,,,,,,,,,,,,,,,,,,,

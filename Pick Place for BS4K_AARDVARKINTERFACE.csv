@@ -1,0 +1,56 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\BS4K_TX_AardvarkInterface\Project Outputs for BS4K_TX_AardvarkInterface\Generate Files\Pick Place\Pick Place for BS4K_AARDVARKINTERFACE.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/04/23
+Time:       11:34
+Revision:   4c7a8a6ef7cad9dc072e77df0450143bd6431401
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R25","ERJ-2RKF1002X","TopLayer","RES1005(0402)N","39.7510","18.0340","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 10k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R24","ERJ-2RKF1002X","TopLayer","RES1005(0402)N","39.7510","15.6210","180","Precision Thick Film Chip Resistors 0402 (1005 Metric) 10k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R23","ERJ-2RKF1002X","TopLayer","RES1005(0402)N","46.4820","21.5900","90","Precision Thick Film Chip Resistors 0402 (1005 Metric) 10k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R22","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","45.7677","11.9692","90","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R21","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","48.3077","9.8102","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R20","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","48.3077","8.7942","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R19","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","48.3077","7.7782","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R18","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","48.3077","6.7622","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R17","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","48.3077","5.7462","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R16","ERJ-2RKF1002X","TopLayer","RES1005(0402)N","40.4337","6.3812","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 10k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R15","ERJ-2RKF1002X","TopLayer","RES1005(0402)N","40.4337","7.3972","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 10k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R14","ERJ-2RKF1002X","TopLayer","RES1005(0402)N","40.4337","8.4132","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 10k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R13","ERJ-2RKF1002X","TopLayer","RES1005(0402)N","40.4337","9.4292","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 10k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R12","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","45.8947","3.7142","270","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R11","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","44.8787","3.7142","270","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R10","ERJ-2RKF4701X","TopLayer","RES1005(0402)N","43.7357","11.9692","270","Precision Thick Film Chip Resistors 0402 (1005 Metric) 4.7k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R9","ERJ-2RKF4701X","TopLayer","RES1005(0402)N","42.7197","11.9692","270","Precision Thick Film Chip Resistors 0402 (1005 Metric) 4.7k ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"C2","GCM155R71C104KA55D","TopLayer","CAPC1005X06(0402)N","45.3390","21.5900","90","Chip Multilayer Ceramic Capacitors for Automotive 0402 100nF –55 to 125°C X7R 16Vdc ±10%"
+"C1","GCM155R71C104KA55D","TopLayer","CAPC1005X06(0402)N","44.7517","11.9692","90","Chip Multilayer Ceramic Capacitors for Automotive 0402 100nF –55 to 125°C X7R 16Vdc ±10%"
+"SW2","GW12LCP","TopLayer","GW12LCP_NKK","35.8140","16.7640","270","No Description Available"
+"SW1","GW12LCP","TopLayer","GW12LCP_NKK","35.8140","8.5090","270","No Description Available"
+"U2","MCP23008-E/ML","TopLayer","QFN-ML20_L","44.3707","7.6512","0","MCP23008 Series 5.5 V 1.7 MHz 8-Bit I/O Expander with Serial Interface - QFN-20"
+"D9","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","8.1592","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D5","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","16.9222","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D6","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","15.7792","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D7","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","14.6362","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D2","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","12.3502","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D10","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","9.3022","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D4","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","19.2082","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D3","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","18.0652","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D1","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","11.2072","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"D8","ESDL031-1BF4","TopLayer","DFN65P100X55-2N","51.2287","13.4932","0","TVS DIODE 3.3VWM 7VC DFN1006-2"
+"U1","TMUX1574RSVR","TopLayer","FP-RSV0016A-MFG","44.8407","18.2462","0","Low Capacitance 2: 1 (SPDT) 4-Channel Powered-Off Protected Switch with 1.8 V Logic 16-Pin UQFN"
+"R8","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","47.7977","18.7002","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R7","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","47.7977","19.7162","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R6","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","45.5137","15.1442","270","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R5","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","47.7977","17.6842","0","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R4","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","42.0617","17.3032","180","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R3","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","42.0617","18.3192","180","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R2","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","42.0617","19.3352","180","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"R1","ERJ-2RKF22R0X","TopLayer","RES1005(0402)N","44.1960","21.5900","90","Precision Thick Film Chip Resistors 0402 (1005 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"J2","D2510-6002-AR","TopLayer","FP-D2510-6002-AR-MFG","28.2250","12.5000","90","Header LowProfile 4-Wall 0.1Inch HighTemp Straight SMT 10Cnts"
+"J1","HSEC8-109-01-L-RA","TopLayer","SAMTEC_HSEC8-109-01-L-RA","58.2875","12.5000","90","Standard Card Edge Connectors 0.80 mm High-Speed Power/Signal Combo Edge Card Connector"
