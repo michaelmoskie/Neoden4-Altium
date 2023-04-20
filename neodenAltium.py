@@ -19,8 +19,8 @@ class component:
         self.Comment = line.split(',')[1]
         self.Layer = line.split(',')[2].replace("\"", "")
         self.Footprint = line.split(',')[3]
-        self.X = line.split(',')[4].replace("\"", "")
-        self.Y = line.split(',')[5].replace("\"", "")
+        self.X = float(line.split(',')[4].replace("\"", ""))
+        self.Y = float(line.split(',')[5].replace("\"", ""))
         self.Rotation = line.split(',')[6]
         self.Description = line.split(',')[7]
 
@@ -79,8 +79,8 @@ class NeoDenConverter:
                     str(comp.Designator).replace("\"","") + "," + \
                     str(comp.Comment.replace("\"","")) + "," + \
                     str(comp.Footprint).replace("\"","") + "," + \
-                    str(comp.X) + "," + \
-                    str(comp.Y) + "," + \
+                    str(round(Decimal(comp.X),3)) + "," + \
+                    str(round(Decimal(comp.Y),3)) + "," + \
                     str(comp.Rotation).replace("\"","") + \
                     ",,"
                 #outLine = str(comp.Designator).replace("\"","") + "," + str(comp.Footprint).replace("\"","") + "," + str(round(Decimal(comp.X),2))+"mm" + "," + str(round(Decimal(comp.Y),2))+"mm" + "," + "T," + str(comp.Rotation).replace("\"","") + "," + comp.Comment.replace("\"","")
@@ -97,8 +97,8 @@ class NeoDenConverter:
         if self.Relative:
             self.getDistancesFromFirstChip();
         if self.Offset:
-            self.firstChipPhysicalX = float(input("Enter the machine X coordinate of component " + self.components[0].Designator + " : "))
-            self.firstChipPhysicalY = float(input("Enter the machine Y coordinate of component " + self.components[0].Designator + " : "))
+            self.firstChipPhysicalX = float(input("Enter the machine X coordinate of component " ))
+            self.firstChipPhysicalY = float(input("Enter the machine Y coordinate of component " ))
             self.ApplyMachinePositionsToComponents()
         if self.Side == None:
             self.createOutputFile("TopLayer")
@@ -139,4 +139,4 @@ Converter = NeoDenConverter(args.File,args.Side,args.IncHeader,args.Offset,args.
 
 #if __name__ == "__main__":
 #    print("Running From Main - DO NOTHING")
-#    Converter = NeoDenConverter("Pick Place for BS4K_AARDVARKINTERFACE.csv","TopLayer",False,False)
+#    Converter = NeoDenConverter("Pick Place for BS4K_AARDVARKINTERFACE.csv",None,True,True,False)
