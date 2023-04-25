@@ -1,0 +1,44 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\BOLDscreen 32 UHD camera\Project Outputs for BOLDscreen4k camera\Pick Place\Pick Place for 0-0091-03_BS4k_camera.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       24/04/23
+Time:       14:15
+Revision:   b811da64ad74fcb38a13b4b38cc61c985b53eadc
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"C13","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","-7.8750","3.5000","270","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"C11","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","13.8750","-3.1250","180","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"U5","MCP1824T-1802E/OT","TopLayer","SOT-23-OT5_M","-13.0000","-3.3750","270","300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-23, Extended Temperature, Tape and Reel"
+"U4","PI2MEQX2505","TopLayer","QFN50P550X350X60_HS-29N","2.2500","2.8750","180","Mipi Switch V-QFN3555-28 T&r 3.5"
+"C4","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","-1.7500","5.0000","90","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"LK4","RC0603JR-070RL","TopLayer","RES1608(0603)N","-4.5000","-5.5000","180","Thick Film Resistors - SMD 0 Ohms 100 mW 0603 5%"
+"LK3","RC0603JR-070RL","TopLayer","RES1608(0603)N","-0.3750","-5.5000","0","Thick Film Resistors - SMD 0 Ohms 100 mW 0603 5%"
+"C7","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","7.2500","4.0000","180","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"C6","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","-9.6250","3.5000","270","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"C5","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","-11.3750","3.5000","270","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"C10","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","18.0000","5.7500","180","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"C12","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","13.8750","0.5000","180","Chip Multilayer Ceramic Capacitors for General Purpose 0603 1µF –55 to 85°C X5R 16Vdc ±10%"
+"C2","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","13.8750","-1.3750","0","CAP CER 10UF 10V X5R 0603"
+"C1","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","-16.6250","3.6250","90","CAP CER 10UF 10V X5R 0603"
+"C8","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","-16.0000","-3.2500","270","CAP CER 10UF 10V X5R 0603"
+"C9","C1608X5R1A106K080AC","TopLayer","CAPC1608X06(0603)N","-9.8750","-3.3750","90","CAP CER 10UF 10V X5R 0603"
+"C3","GRM155R61H104KE19D","TopLayer","CAPC1608X06(0603)N","-20.2500","3.6250","90","Multilayer Ceramic Capacitors MLCC - SMD/SMT .1UF 50V 10% 0402"
+"R6","RES chip 0603 10k","TopLayer","RES1608(0603)N","23.1250","-5.5000","0","Res General Purpose Thick Film 0603 10K Ohm 1% 1/10W ±100ppm/°C Molded SMD Paper T/R"
+"R5","RES chip 0603 10k","TopLayer","RES1608(0603)N","23.1250","-3.8750","0","Res General Purpose Thick Film 0603 10K Ohm 1% 1/10W ±100ppm/°C Molded SMD Paper T/R"
+"R3","RES chip 0603 10k","TopLayer","RES1608(0603)N","23.1250","-2.2500","180","Res General Purpose Thick Film 0603 10K Ohm 1% 1/10W ±100ppm/°C Molded SMD Paper T/R"
+"R1","RES chip 0603 10k","TopLayer","RES1608(0603)N","-18.3750","3.6250","270","Res General Purpose Thick Film 0603 10K Ohm 1% 1/10W ±100ppm/°C Molded SMD Paper T/R"
+"R2","RES chip 0603 10k","TopLayer","RES1608(0603)N","18.3750","-0.7500","180","Res General Purpose Thick Film 0603 10K Ohm 1% 1/10W ±100ppm/°C Molded SMD Paper T/R"
+"R4","RES chip 0603 22R","TopLayer","RES1608(0603)N","13.8750","2.2500","180","Precision Thick Film Chip Resistors 0603 (1608 Metric) 22 ±1% 0.1W, 1/10W ±100ppm/°C -55°C ~ 155°C"
+"U1","TCA9406","TopLayer","TCA9406","-4.4000","3.6500","90","Voltage Level Translator Bidirectional 1 Circuit 2 Channel 24Mbps SM8"
+"VR1","MIC5504-2.8YMS","TopLayer","SOT23-5","-14.1250","3.5000","90","Low dropout 2.8V regulator"
+"U3","TPS3106E16DBV","TopLayer","SOT23-6","18.3750","-3.3750","180","Dual-channel, voltage supervisor, ultra-low supply current 6-SOT-23 -40 to 125"
+"SKT4","525592253","TopLayer","MOLEX_525592253","0.0000","-2.0000","180","Easy-On FFC/FPC Connector, 0.50mm Pitch, Slider Series, Vertical, 3.90mm Height, 22 Circuits, Gold Plating"
+"SKT1","S1411-46R","BottomLayer","MAXI-CLIP","21.0000","0.0000","180","EZ-Shield Clip, SMT, Maxi, Beryllium Copper, tin, Tape & Reeled"
+"SKT2","S1411-46R","BottomLayer","MAXI-CLIP","-21.5000","0.0000","180","EZ-Shield Clip, SMT, Maxi, Beryllium Copper, tin, Tape & Reeled"
+"SKT3","BBR43-24KB533","BottomLayer","ACON_BBR43-24KB533","12.8200","0.0000","90","24 pin 2 Row 0.4mm Board to Board Connector . Receptacle Without Hold Down"
+"U2","SiT2001B","TopLayer","SOT23-5","18.1250","3.2500","180","Single-Chip One-Output Clock Generator 24MHz 1.8V 20ppm 5-Pin SOT-23 T/R"
