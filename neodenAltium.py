@@ -38,16 +38,30 @@ parser = argparse.ArgumentParser(description=description_str,formatter_class=Raw
 class component:
     ##just a structure to represent a physical component
     def __init__(self, line):
-        #"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"    
-        temp = line.split(',')
-        self.Designator = line.split(',')[0]
-        self.Comment = line.split(',')[1]
-        self.Layer = line.split(',')[2].replace("\"", "")
-        self.Footprint = line.split(',')[3]
-        self.X = float(line.split(',')[4].replace("\"", ""))
-        self.Y = float(line.split(',')[5].replace("\"", ""))
-        self.Rotation = line.split(',')[6]
-        self.Description = line.split(',')[7]
+        
+        # RJL: preprocess line ro remove commas inside double speech marks
+        quotecount = 0
+        newLine = ''
+        for i in range(len(line)):
+            if line[i]=='"':
+                quotecount+=1
+            if ((quotecount % 2)==1) & (line[i]==','):
+                newLine  = newLine + '_'
+            else:
+                newLine  = newLine + line[i]
+                
+                
+        #"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"        
+        #temp = line.split(',')
+        self.Designator = newLine.split(',')[0]
+        self.Comment = newLine.split(',')[1]
+        self.Layer = newLine.split(',')[2].replace("\"", "")
+        self.Footprint = newLine.split(',')[3]
+        self.X = float(newLine.split(',')[4].replace("\"", ""))
+        self.Y = float(newLine.split(',')[5].replace("\"", ""))
+        self.Rotation = newLine.split(',')[6]
+        self.Description = newLine.split(',')[7]
+
 
 class NeoDenConverter:
     def PlotData(self,_name ="Figure_1"):
